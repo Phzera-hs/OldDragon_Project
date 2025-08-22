@@ -1,6 +1,4 @@
 import utils.Console_Utils
-from rich.console import Console
-from rich.progress_bar import ProgressBar
 
 class Personagem():
     def __init__(self, nome, raca):
