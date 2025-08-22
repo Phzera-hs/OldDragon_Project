@@ -26,9 +26,10 @@ while True:
     print("1 - Humano")
     print("2 - Elfo")
     print("3 - Anão")
-    print("4 - Elfo")
-    print("5 - Meio-Elfo")
-    print("6 - Gnomo")
+    print("4 - Meio-Elfo")
+    print("5 - Gnomo")
+    print("6 - Halfling")
+    
 
     raca_opcao = input("Opção: ")
 
@@ -42,12 +43,9 @@ while True:
         raca = Anao()
         break
     elif raca_opcao == "4":
-        raca = Elfo()
-        break
-    elif raca_opcao == "5":
         raca = Meio_Elfo()
         break
-    elif raca_opcao == "6":
+    elif raca_opcao == "5":
         raca = Gnomo()
         break
     elif raca_opcao == "6":
