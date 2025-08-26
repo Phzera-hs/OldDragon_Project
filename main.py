@@ -108,3 +108,6 @@ Player.escolher_classe(classe)
 
 # --- Mostrando ficha ---
 Player.Mostrando_Jogador()
+
+input("Aperte qualquer tecla para encerrar...")
+Cons.limpar_tela()
